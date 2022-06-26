@@ -5,6 +5,6 @@
 7 -> нет*/
 
 double firstNumber = -3;
-firstNumber = firstNumber%2;
-if (firstNumber==0) Console.WriteLine("да");
+firstNumber = firstNumber % 2;
+if (firstNumber == 0) Console.WriteLine("да");
 else Console.WriteLine("нет");
