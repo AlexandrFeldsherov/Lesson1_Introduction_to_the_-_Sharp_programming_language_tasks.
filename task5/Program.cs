@@ -6,4 +6,11 @@
 
 Console.Write("Введите число ");
 double number = Convert.ToDouble(Console.ReadLine());
-Console.WriteLine(number);
+if (number > 0)
+{
+    for (int cycleCounter = (int)-number; cycleCounter <= number; cycleCounter++) Console.Write($"{cycleCounter}, ");
+}
+else
+{
+    for (int cycleCounter = (int)number; cycleCounter <= -number; cycleCounter++) Console.Write($"{cycleCounter}, ");
+}
